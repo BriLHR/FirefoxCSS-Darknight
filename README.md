@@ -1,4 +1,4 @@
-# Darknight
+# Darknight 🦇
 
 Darknight is a userChrome.css meant to make Firefox as _clean_ and  **non-distracting** as possible.
 
@@ -27,7 +27,7 @@ Largely based off [keyfox](https://github.com/AlfarexGuy2019/keyfox/). Hide your
 ## Installation 
 - Refer to FirefoxCSS's [reddit](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/) to find out how to use userChrome.css themes.
 
-## Common Essential Keybindings
+## In place of hidden buttons... 
 - Close tabs by Ctrl+W
 - Traverse forward/backwards into the tab's history by Alt+Arrow Keys
 - Bookmark pages by right clicking the tab
