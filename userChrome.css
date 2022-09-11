@@ -25,7 +25,6 @@ tab[selected="true"] .tab-background {
 }
 
 /* Sets toolbar to black */
-
 toolbar#nav-bar {
   background: #000000 !important;
   box-shadow: none !important;
@@ -41,7 +40,7 @@ toolbar#nav-bar {
 /*====== UI Settings ======*/
 
 :root {
-  --navbarWidth: 400px; /* Set width of navbar. Use vw for a percentage of your window. */
+  --navbarWidth: 350px; /* Set width of navbar. Use vw for a percentage of your window, or px for a fixed width */
   --animationSpeed: 0.5s;
 }
 
@@ -113,7 +112,6 @@ toolbar#nav-bar {
 }
 
 /* Element Hiding stuff */
-
 .urlbar-icon,
 #userContext-indicator,
 #userContext-label {
