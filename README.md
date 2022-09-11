@@ -1,16 +1,16 @@
 # Darknight
 
-Darknight is meant to make Firefox as _clean_ and  **non-distracting** as possible. 
+Darknight is a userChrome.css meant to make Firefox as _clean_ and  **non-distracting** as possible.
 
 ## Foreword
-Largely based on [keyfox](https://github.com/AlfarexGuy2019/keyfox/). Intended usecase is to hide as much addons from the toolbar as possible for a clean layout. Do check out others' CSS like [cascade](https://github.com/andreasgrafen/cascade) for a variant that collapses your addons into a menu. Do star this project if you like it!
-
-
+Largely based off [keyfox](https://github.com/AlfarexGuy2019/keyfox/). Hide as much addons from the toolbar as possible for a clean layout. Do check out others' CSS like [cascade](https://github.com/andreasgrafen/cascade) for variants that collapses your addons into a menu. 
+> Do star this project if you like it!
 
 ## Features
 - OneLine Design
 - Keyboard-centric
 - Dark theme (True black colour)
+- Addons are not obscured behind a menu
 
 ## Installation 
 - Refer to FirefoxCSS's [reddit](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/) to find out how to use userChrome.css themes.
