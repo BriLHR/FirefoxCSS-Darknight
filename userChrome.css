@@ -1,0 +1,123 @@
+/*====== Colour ======*/
+
+/* Puts a line at the top of the current active tab, feel free to edit the colour */
+#tabbrowser-tabs tab.tabbrowser-tab[selected="true"],
+#tabbrowser-tabs tab.tabbrowser-tab[multiselected="true"] {
+  border-top: 2px solid rgb(0, 116, 87) !important;
+}
+
+/* Sets active tab to black colour, you may want to edit this to be a more visible colour and commnet out the above chunk that puts a line on the active tab */
+tab[selected="true"] .tab-background {
+  background: black !important;
+}
+
+/* Sets tabs background to black*/
+
+#navigator-toolbox {
+  background-color: #000000 !important;
+  background-image: linear-gradient(
+    to top,
+    rgba(10, 31, 51, 0.35) 2px,
+    rgba(0, 0, 0, 0.05) 2px,
+    transparent 50%
+  ) !important;
+  border: none !important;
+}
+
+/* Sets toolbar to black */
+
+toolbar#nav-bar {
+  background: #000000 !important;
+  box-shadow: none !important;
+  padding-bottom: 4px !important;
+}
+
+/* Sets the URL bar to black */
+#urlbar-background {
+  background: black !important;
+  border: none !important;
+}
+
+/*====== UI Settings ======*/
+
+:root {
+  --navbarWidth: 400px; /* Set width of navbar. Use vw for a percentage of your window. */
+  --animationSpeed: 0.5s;
+}
+
+#TabsToolbar {
+  margin-left: var(--navbarWidth) !important;
+}
+
+#nav-bar {
+  margin-right: calc(100vw - var(--navbarWidth)) !important;
+}
+
+#urlbar-container {
+  min-width: 0px !important;
+}
+
+:root[uidensity="compact"] #nav-bar {
+  margin-top: -37px !important;
+  height: 37px !important;
+}
+
+:root:not([uidensity="compact"]):not([uidensity="touch"]) #nav-bar {
+  margin-top: -44px !important;
+  height: 44px !important;
+}
+
+:root[uidensity="touch"] #nav-bar {
+  margin-top: -49px !important;
+  height: 49px !important;
+}
+
+/*====== Hiding buttons ======*/
+
+#back-button,  /* Backward history */
+#forward-button, /* Forward history */
+#tabs-newtab-button, /* New tab */
+#identity-box, /*site information */
+#tracking-protection-icon-container, /* "Shield" icon */
+#page-action-buttons,
+#urlbar-go-button /* Search URL magnifying glass */ {
+  display: none !important;
+}
+
+/* MIN MAX CLOSE Remove */
+.titlebar-buttonbox-container {
+  display: none !important;
+}
+
+/* Hide Tab Close buttons */
+.tabbrowser-tab .tab-close-button {
+  display: none !important;
+}
+
+/*====== Simplifying interface ======*/
+
+#nav-bar {
+  box-shadow: none !important;
+}
+
+/* remove "padding" left and right from tabs */
+.titlebar-spacer {
+  display: none !important;
+}
+
+/* remove gap after pinned tabs */
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
+  > #tabbrowser-arrowscrollbox
+  > .tabbrowser-tab[first-visible-unpinned-tab] {
+  margin-inline-start: 0 !important;
+}
+
+/* Element Hiding stuff */
+
+.urlbar-icon,
+#userContext-indicator,
+#userContext-label {
+  fill: transparent !important;
+  background: transparent !important;
+  color: transparent !important;
+}
