@@ -2,8 +2,6 @@
 
 Darknight is a userChrome.css meant to make Firefox as _clean_ and  **non-distracting** as possible.
 
-## Foreword
-Largely based off [keyfox](https://github.com/AlfarexGuy2019/keyfox/). Hide your bookmarks bar and as much addons as possible from the toolbar for a clean layout. Check out others' CSS like [cascade](https://github.com/andreasgrafen/cascade) that collapses your addons into a menu if you have tons of addons you need on your screen.
 > **Do star this project if you like it!**
 
 ## Features
@@ -26,10 +24,15 @@ Largely based off [keyfox](https://github.com/AlfarexGuy2019/keyfox/). Hide your
 
 ## Installation 
 - Refer to FirefoxCSS's [reddit](https://www.reddit.com/r/FirefoxCSS/wiki/index/tutorials/) to find out how to use userChrome.css themes.
+- Hide as many elements that you do not need to see on the toolbar for a clean layout (addons, flexible spacing, etc).
 
 ## In place of hidden buttons... 
 - Close tabs by Ctrl+W
+- Close Firefox with Ctrl+Q
 - Traverse forward/backwards into the tab's history by Alt+Arrow Keys
 - Bookmark pages by right clicking the tab
 - Access bookmarks by Ctrl+B
 - Check out Firefox's keyboard shortcuts at their official site [here](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly).
+
+## Credits
+Largely based off [keyfox](https://github.com/AlfarexGuy2019/keyfox/). Check out others' CSS like [cascade](https://github.com/andreasgrafen/cascade) that collapses your addons into a menu if you have tons of addons you need on your screen.
