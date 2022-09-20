@@ -32,6 +32,7 @@ Darknight is a userChrome.css meant to make Firefox as _clean_ and  **non-distra
 - Traverse forward/backwards into the tab's history by Alt+Arrow Keys
 - Bookmark pages by right clicking the tab
 - Access bookmarks by Ctrl+B
+- Usage of vim-like keyboard binding addons like [Vimium C](https://addons.mozilla.org/en-US/firefox/addon/vimium-c) for more keyboard functionality
 - Check out Firefox's keyboard shortcuts at their official site [here](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly).
 
 ## Credits
