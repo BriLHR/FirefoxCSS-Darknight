@@ -35,4 +35,4 @@ Darknight is a userChrome.css meant to make Firefox as _clean_ and  **non-distra
 - Check out Firefox's keyboard shortcuts at their official site [here](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly).
 
 ## Credits
-Largely based off [keyfox](https://github.com/AlfarexGuy2019/keyfox/). Check out others' CSS like [cascade](https://github.com/andreasgrafen/cascade) that collapses your addons into a menu if you have tons of addons you need on your screen.
+Largely based off [keyfox](https://github.com/AlfarexGuy2019/keyfox/).
