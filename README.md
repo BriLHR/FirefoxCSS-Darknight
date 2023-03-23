@@ -8,7 +8,6 @@ Darknight is a userChrome.css meant to make Firefox as _clean_ and  **non-distra
 - OneLine Design
 - Keyboard-centric
 - Dark theme
-- Addons are not obscured behind a menu
 
 <div align="center">
 
